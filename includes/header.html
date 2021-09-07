@@ -1,0 +1,40 @@
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+      <!-- ======= Header ======= -->
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="/index.html" class="logo"><img src="/assets/img/logo-tazman.png" alt="" class="img-fluid"></a>
+      <!-- Uncomment below if you prefer to use an text logo -->
+      <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
+
+        <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link" href="/is.html">is</a></li>
+              <li><a class="nav-link" href="/does/index.html">does</a></li>
+              <li><a class="nav-link" href="/thinks/__index.html">thinks</a></li>
+              <li><a class="nav-link" href="/talks.html">talks</a></li>
+              <li><form role="search" id="form">
+            <input type="search" id="query" name="q" placeholder="search..." aria-label="Search through site content">
+            </form>
+            <script>
+              const f = document.getElementById('form');
+              const q = document.getElementById('query');
+              const google = 'https://www.google.com/search?q=site%3A';
+              const site = 'joshuareinier.com';
+        
+              function submitted(event) {
+                event.preventDefault();
+                const url = google + site + '+' + q.value;
+                const win = window.open(url, '_blank');
+                win.focus();
+              }
+        
+              f.addEventListener('submit', submitted);
+            </script></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
