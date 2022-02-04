@@ -1,0 +1,55 @@
+body {
+  padding: 0 50px;
+}
+
+iframe {
+  border: 1px grey;
+}
+
+.slider {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider .photos {
+  position: relative;
+  height: calc(100vw - 100px);
+  width: calc(100vw - 100px);
+}
+    
+.slider .photos img {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 60px;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+            
+.slider .photos img.shown {
+  opacity: 1;
+}
+
+.prev:before,
+.next:before {
+  color: #fff;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+
+.prev:before {
+  content: '<';
+  left: 5px;
+}
+
+.next:before {
+  content: '>';
+  right: 5px;
+}
+
