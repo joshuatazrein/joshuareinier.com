@@ -12,12 +12,15 @@ iframe {
   text-align: center;
   overflow: hidden;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .slider .photos {
   position: relative;
   height: calc(100vw - 100px);
   width: calc(100vw - 100px);
+  max-width: calc(100vh - 50px);
 }
 
 .slider .photos img {
