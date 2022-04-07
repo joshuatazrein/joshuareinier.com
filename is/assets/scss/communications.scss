@@ -1,0 +1,38 @@
+/* import the necessary Bootstrap files */
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,400,700");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,500;1,300;1,500&display=swap");
+
+$headings-font-family: "Nunito";
+$headings-font-weight: 100;
+$body-color: rgb(222, 225, 234);
+$body-bg: rgb(16, 16, 17);
+$light: rgb(35, 31, 42);
+$dark: rgb(41, 41, 49);
+$font-family-sans-serif: "Work Sans";
+$font-weight-normal: 200;
+$font-weight-bold: 500;
+$primary: #4b86a5;
+
+@import "../bootstrap/scss/bootstrap";
+
+.section {
+  @extend .container-fluid;
+  @extend .pt-2;
+  @extend .pb-2;
+}
+
+.top-bar {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+}
+
+.container {
+  border-radius: 5px;
+  @extend .pt-2, .pb-2;
+}
+
+.text-grey {
+  color: #bbcacf;
+}
