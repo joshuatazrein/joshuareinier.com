@@ -1,0 +1,22 @@
+body {
+  background: #000000;
+  color: white;
+  height: 100000px;
+}
+
+pre {
+  font-family: serif;
+  position: fixed;
+  margin: 0;
+  line-height: 1px;
+  text-align: center;
+}
+
+button {
+  margin: 5px auto;
+  background: #000000;
+  color: white;
+  font: serif;
+  cursor: pointer;
+  border: none;
+}

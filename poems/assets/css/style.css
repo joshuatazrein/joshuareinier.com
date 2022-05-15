@@ -1,0 +1,55 @@
+:root {
+  --bg: black;
+  --fg: white;
+  --sl: skyblue;
+  --sl-2: blue;
+  --bd: grey;
+}
+
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+a {
+  color: skyblue;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: var(--sl-2);
+}
+
+.section {
+  width: 100%;
+}
+
+.top-25 {
+  top: 25%;
+}
+
+.top-50 {
+  top: 50%;
+}
+
+.top-75 {
+  top: 25%;
+}
+
+.left-25 {
+  left: 25%;
+}
+
+.left-50 {
+  left: 50%;
+}
+
+.left-75 {
+  left: 25%;
+}
