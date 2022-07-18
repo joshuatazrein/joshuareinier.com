@@ -208,7 +208,14 @@
       }
       console.log($("html"));
     </script>
-    <script src="locator.js"></script>
     <script src="nav.js"></script>
+    <script>
+      setTimeout(() => {
+        window.scrollTo(
+          990 - window.innerWidth / 2,
+          990 - window.innerHeight / 2
+        );
+      }, 10);
+    </script>
   </body>
 </html>

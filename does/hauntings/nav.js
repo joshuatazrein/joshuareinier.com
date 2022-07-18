@@ -27,8 +27,8 @@ const pieces = [
 ];
 
 const title = $("title").html();
-const navBar = `<div class="navbar"><a href="_index.html" title="index">index</a><span style="font-weight: bold">${title}</span><a href="${
-  pieces[pieces.indexOf(title) + 1] || "_index"
+const navBar = `<div class="navbar"><a href="index.html" title="index">index</a><span style="font-weight: bold">${title}</span><a href="${
+  pieces[pieces.indexOf(title) + 1] || "index"
 }.html">next</a></div>`;
 
 $("body").prepend(navBar);

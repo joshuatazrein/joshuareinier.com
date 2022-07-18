@@ -199,7 +199,7 @@ document.addEventListener("click", (event) => {
         window.scrollX +
         " " +
         window.scrollY +
-        // _INDEX "\n" + "<svg width=\"" + (xdif + 10) + "\" height=\"" +
+        // index "\n" + "<svg width=\"" + (xdif + 10) + "\" height=\"" +
         // (ydif + 10) +
         //   "\" style=\"left:" + (Math.min(pageX, lastclick[0]) - 10 -
         // 50) +
